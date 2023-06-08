@@ -9,6 +9,7 @@ const Navbar = () => {
     { name: "Campaign", link: "Campaign" },
     { name: "Contact Us", link: "ContactUs" },
   ];
+
   return (
     <>
       <div className="navbarElement">
@@ -46,13 +47,19 @@ const Navbar = () => {
 export default Navbar;
 
 const AuthComponent = () => {
+  const authLink = [
+    { name: "Sign Up", link: "SignUp" },
+    { name: "Login", link: "Login" },
+  ];
   return (
     <>
       <div className="authElement">
-        {["Sign Up", "Login"].map((a) => {
+        {authLink.map((a) => {
           return (
             <>
-              <div className="authButton">{a}</div>
+              <div className="authButton">
+                <Link to={`/${a.link}`}>{a.name}</Link>
+              </div>
             </>
           );
         })}

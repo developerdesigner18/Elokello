@@ -108,6 +108,7 @@
 
 @media only screen and (max-width: 570px) {
   .StartFundraiserPage {
+    padding: 5vw 5px;
     margin: var(--margin-side-xs);
     margin-bottom: var(--margin-bottom-xl);
   }

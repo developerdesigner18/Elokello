@@ -10,8 +10,8 @@ const AboutUs = () => {
       <Navbar />
       <ShortStoryAboutUs />
       <StartFundraiser />
-      {/* <OurVolunteers />
-      <Footer /> */}
+      <OurVolunteers />
+      <Footer />
     </>
   );
 };

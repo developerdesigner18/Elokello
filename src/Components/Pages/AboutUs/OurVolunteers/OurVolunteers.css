@@ -1,3 +1,10 @@
+.OurVolunteersPage {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  margin: var(--margin-side-xl);
+  margin-bottom: var(--margin-bottom-xl);
+}
 .volunteersTitle {
   font-size: 50px;
   font-family: var(--font-Vendura);
@@ -14,17 +21,17 @@
 }
 
 .volunteerCard {
-  background-image: url("../../../../../public/volunteerBackground.svg");
-  background-repeat: no-repeat;
   gap: 3vw;
   display: flex;
   flex-direction: column;
 }
 .volunteerImg {
-  width: 100%;
+  width: 90%;
 }
 .volunteerImgCover {
-  width: 92%;
+  background-image: url("../../../../../public/volunteerBackground.svg");
+  background-repeat: no-repeat;
+  width: 100%;
   padding-top: 4.4rem;
 }
 
@@ -49,4 +56,63 @@
 }
 .volunteerCardRow {
   justify-content: space-around !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .volunteersTitle {
+    font-size: 32px;
+  }
+  .aboutVolunteers {
+    font-size: 25px;
+  }
+  .volunteerName {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .volunteersTitle {
+    font-size: 32px;
+  }
+  .aboutVolunteers {
+    font-size: 25px;
+  }
+  .volunteerName {
+    font-size: 25px;
+  }
+  .volunteerCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .volunteersTitle {
+    font-size: 26px;
+  }
+  .aboutVolunteers {
+    font-size: 18px;
+  }
+  .volunteerName {
+    font-size: 18px;
+  }
+  .OurVolunteersPage {
+    margin: var(--margin-side-xs);
+    margin-bottom: var(--margin-bottom-xl);
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .volunteersTitle {
+    font-size: 14px;
+  }
+
+  .aboutVolunteers {
+    font-size: 12px;
+  }
+  .volunteerName {
+    font-size: 12px;
+  }
 }

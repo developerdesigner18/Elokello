@@ -8,7 +8,7 @@ const VolunteersData = [
 const OurVolunteers = () => {
   return (
     <>
-      <div>
+      <div className="OurVolunteersPage">
         <div className="volunteersTitle">Our Volunteers</div>
         <div className="aboutVolunteers">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -19,7 +19,7 @@ const OurVolunteers = () => {
           {VolunteersData.map((i) => {
             return (
               <>
-                <div className="volunteerCard col-lg-3 col-md-5 col-sm-12">
+                <div className="volunteerCard col-lg-3 col-md-5 col-sm-9">
                   <div className="volunteerImgCover">
                     <img className="volunteerImg" src={i.image} alt="" />
                   </div>
