@@ -2,10 +2,9 @@ import React from "react";
 import "./ContactUs.css";
 import Navbar from "../../Helpers/Navbar";
 import Footer from "../../Helpers/Footer";
-import { DropDownButton } from "./DropDown";
 import { useState } from "react";
 import ContactUsDetails from "./ContactUsDetails";
-const ContactUs = () => {
+const Sgn = () => {
   const [select, setSelect] = useState({});
 
   const onChange = (value) => {
@@ -20,4 +19,4 @@ const ContactUs = () => {
   );
 };
 // hello
-export default ContactUs;
+export default Sgn;
