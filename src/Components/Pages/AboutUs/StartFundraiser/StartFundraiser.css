@@ -1,0 +1,106 @@
+.StartFundraiserPage {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  margin: var(--margin-side-xl);
+  margin-bottom: var(--margin-bottom-xl);
+  background-image: url("../../../../../public/fundraiserBackgroung.svg");
+}
+.StartFundraiserTitle {
+  color: #707070;
+  font-size: 50px;
+  font-family: var(--font-Vendura);
+  margin: auto;
+  text-align: center;
+}
+.titleOfStart {
+  color: #707070;
+  font-size: 25px;
+  font-family: var(--font-Vendura);
+}
+.descriptionOfStart {
+  color: #707070;
+  font-size: 20px;
+  font-family: var(--font-Unna);
+}
+.startInfo {
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.startData {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.startImg img {
+  width: 70px;
+}
+.mobile img {
+  width: 100%;
+}
+
+.startComponent {
+  justify-content: center !important;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .StartFundraiserTitle {
+    font-size: 32px;
+  }
+  .titleOfStart {
+    font-size: 25px;
+  }
+  .descriptionOfStart {
+    font-size: 20px;
+  }
+
+  .startInfo {
+    width: 125% !important;
+  }
+  .startData {
+    gap: 2rem;
+  }
+  .startImg img {
+    width: 70px;
+  }
+  .mobile img {
+    width: 100%;
+  }
+  .startComponent {
+    justify-content: space-around !important;
+    gap: 0px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .StartFundraiserTitle {
+    font-size: 26px;
+  }
+  .titleOfStart {
+    font-size: 18px;
+  }
+  .descriptionOfStart {
+    font-size: 16px;
+  }
+
+  .startInfo {
+    width: 100% !important;
+  }
+
+  .startImg img {
+    width: 70px;
+  }
+  .mobile {
+    width: 100%;
+    display: contents !important;
+  }
+  .mobile img {
+    width: 50%;
+  }
+  .startComponent {
+    gap: 3vw;
+  }
+}

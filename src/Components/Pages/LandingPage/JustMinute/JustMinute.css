@@ -1,0 +1,107 @@
+.JustMinute {
+  background-color: #87ceeb;
+  padding: 4rem 0;
+  margin-bottom: var(--margin-bottom-xl);
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+.justHeading {
+  color: #707070;
+  font-size: 50px;
+  text-align: center;
+  font-family: var(--font-Vendura);
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+
+.cardData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+.cardData img {
+  width: 8rem;
+}
+.cardTitle {
+  color: #707070;
+  font-size: 40px;
+  text-align: center;
+  font-family: var(--font-Vendura);
+}
+.cardDescription {
+  color: #707070;
+  font-size: 30px;
+  text-align: center;
+  font-family: var(--font-Vendura);
+}
+
+@media only screen and (max-width: 1200px) {
+  .justHeading {
+    font-size: 32px;
+  }
+  .cardTitle {
+    font-size: 30px;
+  }
+  .cardDescription {
+    font-size: 24px;
+  }
+  .cardData img {
+    width: 6rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .justHeading {
+    font-size: 32px;
+  }
+  .cardTitle {
+    font-size: 30px;
+  }
+  .cardDescription {
+    font-size: 24px;
+  }
+  .cardData img {
+    width: 6rem;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .cardData {
+    gap: 5vw;
+  }
+  .justHeading {
+    font-size: 26px;
+  }
+  .cardTitle {
+    font-size: 24px;
+  }
+  .cardDescription {
+    font-size: 3.8vw;
+  }
+  .cardData img {
+    width: 16vw;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .justHeading {
+    font-size: 20px;
+    width: 80%;
+  }
+  .cardTitle {
+    font-size: 18px;
+  }
+  .cardDescription {
+    font-size: 16px;
+  }
+  .cardData img {
+    width: 16vw;
+  }
+}

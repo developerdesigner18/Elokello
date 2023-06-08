@@ -1,0 +1,128 @@
+.JoinCommunityParent {
+  background-image: url("../../../../../public/communityBackground.svg");
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+.jcTitle {
+  height: 20rem;
+}
+.jcEnd {
+  height: 18rem;
+  gap: 1rem;
+}
+.jcTitleBoxImg {
+  position: relative;
+  top: 14%;
+}
+
+.joiningData {
+  /* position: relative; */
+  top: 5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.JoinCommunity {
+  font-size: 50px;
+  font-family: var(--font-Vendura);
+  color: #707070;
+  text-align: center;
+  width: 45%;
+}
+.CommunitySize {
+  font-size: 50px;
+  font-family: var(--font-Vendura);
+  color: #ff7f50;
+  text-align: center;
+}
+.alreadyJoined {
+  font-size: 30px;
+  font-family: var(--font-Unna);
+  color: #707070;
+  text-align: center;
+}
+
+.iWantToJoin {
+  font-size: 37px;
+  font-family: var(--font-Unna);
+  color: #707070;
+  background-color: #87ceeb;
+  text-align: center;
+  padding: 0 1rem;
+  height: 50px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .jcTitleBoxImg {
+    position: static;
+  }
+  .joiningData {
+    position: static;
+  }
+  .jcTitle {
+    height: auto;
+  }
+  .jcEnd {
+    height: auto;
+  }
+  .jcEndImgBox img,
+  .jcTitleBoxImg img {
+    width: 15vw;
+  }
+  .JoinCommunity {
+    font-size: 32px;
+  }
+  .CommunitySize {
+    font-size: 52px;
+  }
+  .alreadyJoined {
+    font-size: 25px;
+  }
+  .iWantToJoin {
+    font-size: 30px;
+    padding: 0 1rem;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .JoinCommunity {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .JoinCommunityParent {
+    padding: 5rem 0;
+  }
+  .joiningData {
+    justify-content: end;
+    height: auto;
+  }
+  .jcEndImgBox img,
+  .jcTitleBoxImg img {
+    width: 15vw;
+  }
+  .JoinCommunity {
+    font-size: 3.8vw;
+  }
+  .CommunitySize {
+    font-size: 4vw;
+  }
+  .alreadyJoined {
+    font-size: 3.8vw;
+  }
+  .iWantToJoin {
+    font-size: 3vw;
+    padding: 0 1rem;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .JoinCommunityParent {
+    padding: 2rem 0;
+  }
+}

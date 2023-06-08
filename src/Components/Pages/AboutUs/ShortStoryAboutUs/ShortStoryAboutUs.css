@@ -1,0 +1,160 @@
+.aboutUsPage {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  margin: var(--margin-side-xl);
+  margin-bottom: var(--margin-bottom-xl);
+}
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUsTitle {
+  font-size: 60px;
+  font-family: var(--font-Vendura);
+  color: #707070;
+}
+.aboutDescription {
+  font-size: 30px;
+  font-family: var(--font-Unna);
+  color: #707070;
+  justify-content: space-between !important;
+}
+
+.aboutUs1,
+.aboutUs2,
+.aboutUs3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 0.5rem;
+}
+.aboutInfo {
+  align-items: center !important;
+}
+.aboutUs3 img {
+  border-radius: 50%;
+  width: 90%;
+}
+.staticNumbers {
+  color: #ff7f50;
+  font-size: 50px;
+  font-family: var(--font-Vendura);
+}
+.aboutDescriptionBox {
+  /* width: 90%; */
+}
+
+.ourStaticInfoParent {
+  padding: 0 15px !important;
+  justify-content: space-between !important;
+}
+.ourStaticInfo {
+  padding: 0 1rem !important;
+}
+.staticTitle {
+  color: #707070;
+  font-size: 32px;
+  font-family: var(--font-Vendura);
+}
+.staticBorder {
+  border-bottom: solid #d9d9d9;
+  border-top: solid #d9d9d9;
+  border-top: solid #d9d9d9;
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutUs1 img,
+  .aboutUs2 img,
+  .aboutUs3 img {
+    border-radius: 50%;
+    width: 90%;
+  }
+
+  .aboutUsTitle {
+    font-size: 32px;
+  }
+  .aboutDescription {
+    font-size: 25px;
+  }
+
+  .aboutUs3 img {
+    border-radius: 50%;
+    width: 90%;
+  }
+  .staticNumbers {
+    font-size: 32px;
+  }
+
+  .staticTitle {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .aboutUsTitle {
+    font-size: 26px;
+  }
+  .aboutDescription {
+    font-size: 18px;
+  }
+
+  .aboutUs3 img {
+    border-radius: 50%;
+    width: 90%;
+  }
+  .staticNumbers {
+    font-size: 26px;
+  }
+  .aboutDescriptionBox {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .staticTitle {
+    font-size: 18px;
+  }
+  .staticBorder {
+    height: 7rem;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .aboutUsPage {
+    margin: var(--margin-side-xs);
+    margin-bottom: var(--margin-bottom-xl);
+  }
+  .aboutUsTitle {
+    font-size: 3.8vw;
+  }
+  .aboutDescription {
+    font-size: 12px;
+  }
+
+  .aboutUs3 img {
+    border-radius: 50%;
+    width: 90%;
+  }
+  .staticNumbers {
+    font-size: 3.8vw;
+  }
+
+  .staticTitle {
+    font-size: 12px;
+  }
+  .staticBorder {
+    height: auto;
+    align-items: center;
+  }
+  .staticTitle {
+    text-align: center;
+  }
+}

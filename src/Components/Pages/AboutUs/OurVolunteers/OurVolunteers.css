@@ -1,0 +1,52 @@
+.volunteersTitle {
+  font-size: 50px;
+  font-family: var(--font-Vendura);
+  color: #707070;
+  text-align: center;
+  margin: auto;
+}
+.aboutVolunteers {
+  font-size: 30px;
+  font-family: var(--font-Vendura);
+  color: #707070;
+  text-align: center;
+  margin: auto;
+}
+
+.volunteerCard {
+  background-image: url("../../../../../public/volunteerBackground.svg");
+  background-repeat: no-repeat;
+  gap: 3vw;
+  display: flex;
+  flex-direction: column;
+}
+.volunteerImg {
+  width: 100%;
+}
+.volunteerImgCover {
+  width: 92%;
+  padding-top: 4.4rem;
+}
+
+.volunteerName {
+  font-size: 30px;
+  font-family: var(--font-Vendura);
+  color: #707070;
+}
+.volunteerData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+}
+.volunteerContact {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.volunteerLink {
+}
+.volunteerCardRow {
+  justify-content: space-around !important;
+}

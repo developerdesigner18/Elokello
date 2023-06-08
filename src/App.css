@@ -6,6 +6,44 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  margin: 0px !important;
+  padding: 0 !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  --bs-gutter-x: 0 !important;
+  height: max-content !important ;
+}
+
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: -webkit-fill-available !important;
+}
+:root {
+  /* fonts */
+  --font-Unna: Poppins;
+  --font-Vendura: "initial";
+  --font-inter: Inter;
+  /* font sizes */
+  --margin-side-xl: 0 5rem;
+  --margin-bottom-xl: 2rem;
+  --margin-side-xs: 0 3rem;
+  --margin-bottom-xs: 1rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
