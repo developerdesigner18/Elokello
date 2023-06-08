@@ -143,7 +143,7 @@
     display: inline;
   }
   .authButton {
-    font-size: 3.8vw;
+    font-size: 12px;
     padding: 0.3rem;
   }
 
@@ -200,6 +200,9 @@
     font-size: 3.8vw;
   }
   .Copyright {
+    font-size: 3.8vw;
+  }
+  .authButton {
     font-size: 3.8vw;
   }
 }

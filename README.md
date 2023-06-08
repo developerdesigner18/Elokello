@@ -71,8 +71,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <!-- >1200 , 1200, 770, 570 -->
 <!-- 6rem 6rem 4rem 16vw  -->
+<!-- 20px 20px 16 12 -->
 <!-- 25px 25px 18 12 -->
 <!-- 30px 25px 18 12 -->
-<!-- 32px 32px 26 3.8vw -->
+<!-- 32px 32px 26 3.8vw 18px-->
 <!-- 50px 32 26 20-->
 <!-- 40px 30 24 18-->

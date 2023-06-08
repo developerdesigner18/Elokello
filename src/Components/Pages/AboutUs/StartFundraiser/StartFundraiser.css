@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 3vw;
+  padding: 5vw 0;
   margin: var(--margin-side-xl);
   margin-bottom: var(--margin-bottom-xl);
   background-image: url("../../../../../public/fundraiserBackgroung.svg");
@@ -75,7 +76,7 @@
   }
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 770px) {
   .StartFundraiserTitle {
     font-size: 26px;
   }
@@ -102,5 +103,46 @@
   }
   .startComponent {
     gap: 3vw;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .StartFundraiserPage {
+    margin: var(--margin-side-xs);
+    margin-bottom: var(--margin-bottom-xl);
+  }
+
+  .StartFundraiserTitle {
+    font-size: 3.8vw;
+  }
+  .titleOfStart {
+    font-size: 12px;
+  }
+  .descriptionOfStart {
+    font-size: 12px;
+  }
+
+  .startInfo {
+    width: 100% !important;
+  }
+
+  .startImg img {
+    width: 70px;
+  }
+  .mobile {
+    width: 100%;
+    display: contents !important;
+  }
+  .mobile img {
+    width: 90%;
+  }
+  .startComponent {
+    gap: 3vw;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .StartFundraiserTitle {
+    font-size: 14px;
   }
 }

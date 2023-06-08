@@ -126,3 +126,12 @@
     padding: 2rem 0;
   }
 }
+@media only screen and (max-width: 370px) {
+  .alreadyJoined {
+    font-size: 12px;
+  }
+
+  .JoinCommunity {
+    font-size: 12px;
+  }
+}
